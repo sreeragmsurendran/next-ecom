@@ -50,7 +50,7 @@ export default async function ProductDetails(props: {
 //   const session = await auth()
   return (
     <div>
-      <AddToBrowsingHistory id={product._id} category={product.category} />
+      {/* <AddToBrowsingHistory id={product._id} category={product.category} /> */}
       <section>
         <div className='grid grid-cols-1 md:grid-cols-5  '>
           <div className='col-span-2'>
@@ -149,7 +149,7 @@ export default async function ProductDetails(props: {
         />
       </section>
       <section>
-        <BrowsingHistoryList className='mt-10' />
+        {/* <BrowsingHistoryList className='mt-10' /> */}
       </section>
     </div>
   )
