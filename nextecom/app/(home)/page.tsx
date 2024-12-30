@@ -9,8 +9,6 @@ import { toSlug } from '@/lib/utils'
 import React from 'react'
 
 const Page = async () => {
-
-
   const categories = (await getAllCategories()).slice(0, 4)
   const newArrivals = await getProductsForCard({
     tag: 'new-arrival',
