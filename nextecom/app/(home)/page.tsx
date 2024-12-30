@@ -1,3 +1,4 @@
+import BrowsingHistoryList from '@/components/shared/browsing-history-list'
 import { HomeCard } from '@/components/shared/home/home-cards'
 import HomeCaroscel from '@/components/shared/home/home-carosels'
 import ProductSlider from '@/components/shared/product/product-slider'
@@ -86,6 +87,9 @@ const Page = async () => {
         <ProductSlider title="Best Selling Products" products={bestSellingProducts} />
       </CardContent>
     </Card>
+  </div>
+  <div className='p-4 bg-background'>
+    <BrowsingHistoryList/>
   </div>
   </> 
 }
