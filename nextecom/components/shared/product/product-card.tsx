@@ -15,12 +15,12 @@ const ProductCard = ({
   product,
   hideBorder = false,
   hideDetails = false,
-  hideAddToCart = false,
+//   hideAddToCart = false,
 }: {
   product: IProduct
   hideDetails?: boolean
   hideBorder?: boolean
-  hideAddToCart?: boolean
+//   hideAddToCart?: boolean
 }) => {
   const ProductImage = () => (
     <Link href={`/product/${product.slug}`}>
