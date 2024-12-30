@@ -10,8 +10,8 @@ import ProductGallery from '@/components/shared/product/product-gallery'
 import { Separator } from '@/components/ui/separator'
 import ProductSlider from '@/components/shared/product/product-slider'
 import RatingSummary from '@/components/shared/product/rating-summary'
-import BrowsingHistoryList from '@/components/shared/browsing-history-list'
-import AddToBrowsingHistory from '@/components/shared/product/add-to-browsing-history'
+// import BrowsingHistoryList from '@/components/shared/browsing-history-list'
+// import AddToBrowsingHistory from '@/components/shared/product/add-to-browsing-history'
 
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>
