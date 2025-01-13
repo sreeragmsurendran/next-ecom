@@ -16,13 +16,14 @@ const Header = () => {
             <div className='flex item-center justify-between'>
                 <div className='flex items-center'>
                     <Link href="/">
-                    <Image
+                    <p className='text-lg'>NexTcom</p>
+                    {/* <Image
                     src='/icons/log.svg'
                     
                     width={80}
                     height={80}
                     alt={`${APP_NAME}-logo`}
-                    />
+                    /> */}
                     </Link>
                 </div>
                 <div className='md:block flex-1 max-w-xl flex item-center'>
