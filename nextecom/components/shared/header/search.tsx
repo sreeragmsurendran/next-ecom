@@ -1,5 +1,4 @@
 import React from "react";
-
 import { APP_NAME } from "@/lib/constants";
 import { Select } from "@/components/ui/select";
 import {
@@ -10,8 +9,12 @@ import {
 } from "@radix-ui/react-select";
 import { SearchIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
-const categories = ["menu", "women", "kids", "accessories"];
+import { getAllCategories } from "@/lib/actions/product.actions";
+
+const categories = await getAllCategories()
+
 const Search = async () => {
+  
   return (
     <form action="/search" method="GET" className="flex items-stretch h-10">
       <Select name="category">
